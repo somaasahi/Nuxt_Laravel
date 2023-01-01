@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>My Comics</h1>
+    <h1　class="alert alert-primary">My Comics</h1>
     <ul>
       <li v-for="comic in comics" :key="comic.id">
         {{comic.title}}
